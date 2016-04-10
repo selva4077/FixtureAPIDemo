@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView android:id="@+id/matchDateTextView"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/teamsHeaderText"
+        android:layout_below="@id/matchDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="@string/teamHeader"/>
+
+    <TextView android:id="@+id/homeTeamTextViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeTeamHeader"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/teamsHeaderText"
+        android:layout_below="@id/teamsHeaderText"/>
+
+    <TextView android:id="@+id/homeTeamTextViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/homeTeamTextViewHeader"
+        android:layout_below="@id/teamsHeaderText"/>
+
+    <TextView android:id="@+id/awayTeamTextViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/awayTeamHeader"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/teamsHeaderText"
+        android:layout_below="@id/homeTeamTextViewHeader"/>
+
+    <TextView android:id="@+id/awayTeamTextViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/awayTeamTextViewHeader"
+        android:layout_below="@id/homeTeamTextViewHeader"/>
+
+    <TextView android:id="@+id/goalsHeaderText"
+        android:layout_below="@id/awayTeamTextViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="@string/goalsHeader"/>
+
+    <TextView android:id="@+id/homeTeamTextViewGoalsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeTeamHeader"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/goalsHeaderText"
+        android:layout_below="@id/goalsHeaderText"/>
+
+    <TextView android:id="@+id/homeTeamTextViewGoalsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/homeTeamTextViewGoalsHeader"
+        android:layout_below="@id/goalsHeaderText"/>
+
+    <TextView android:id="@+id/awayTeamTextViewGoalsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/awayTeamHeader"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/goalsHeaderText"
+        android:layout_below="@id/homeTeamTextViewGoalsValue"/>
+
+    <TextView android:id="@+id/awayTeamTextViewGoalsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/awayTeamTextViewGoalsHeader"
+        android:layout_below="@id/homeTeamTextViewGoalsValue"/>
+
+    <TextView android:id="@+id/statusHeaderText"
+        android:layout_below="@id/awayTeamTextViewGoalsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="@string/statusHeader"/>
+
+    <TextView android:id="@+id/statusTextViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/statusHeaderText"
+        android:layout_below="@id/statusHeaderText"/>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ApiDemo</string>
+    <string name="teamHeader">Teams:</string>
+    <string name="homeTeamHeader">Home Team:</string>
+    <string name="awayTeamHeader">Away Team:</string>
+    <string name="statusHeader">Status:</string>
+    <string name="goalsHeader">Goals:</string>
+</resources>
